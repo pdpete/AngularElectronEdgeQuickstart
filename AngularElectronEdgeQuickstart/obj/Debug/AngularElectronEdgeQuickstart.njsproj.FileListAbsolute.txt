@@ -1,0 +1,3 @@
+C:\Repos\AngularElectronEdgeQuickstart\AngularElectronEdgeQuickstart\obj\Debug\AngularElectronEdgeQuickstart.njsprojAssemblyReference.cache
+C:\Repos\AngularElectronEdgeQuickstart\AngularElectronEdgeQuickstart\obj\Debug\AngularElectronEdgeQuickstart.njsproj.CoreCompileInputs.cache
+C:\Repos\AngularElectronEdgeQuickstart\AngularElectronEdgeQuickstart\bin\Microsoft.NodejsTools.WebRole.dll
