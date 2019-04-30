@@ -47,7 +47,7 @@ function createWindow() {
   );
 
   // Uncomment below to open dev tools. Make sure to comment out before committing changes
-  //win.webContents.openDevTools();
+  win.webContents.openDevTools();
 
   // Event runs when the window is closed
   win.on('closed', () => {
