@@ -1,27 +1,36 @@
+# Warning
+This application is currently non-functional. It works as an Electron/Angular app, but the EdgeJS part does not work.
+
 # App
+This app is a quickstart application using Angular, Electron, and EdgeJs. If it is working, the app should come up with "Welcome to The Correct App Name".
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## Getting Started
 
-## Development server
+Clone this repository locally :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash or cmd
+git clone https://github.com/pdpete/AngularElectronEdgeQuickstart.git
+```
 
-## Code scaffolding
+Install dependencies with npm :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash or cmd
+npm install
+```
 
-## Build
+Install Angular with npm :
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- If you have no Angular installed in your machine follow this command.
 
-## Running unit tests
+```bash or cmd
+npm install -g @angular/cli@latest
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- If you had installed a previous version of `Angular CLI`.
 
-## Running end-to-end tests
+  Please follow [Angular Update Guide](https://update.angular.io/).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To run this app :
+```bash or cmd
+npm run electron
+```
